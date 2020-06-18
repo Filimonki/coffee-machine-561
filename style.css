@@ -5,7 +5,7 @@
 }
 .coffee-item {
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 50px;
+  border-radius: calc(75px / 2);
   margin: 15px;
   cursor: pointer;
  }
@@ -38,4 +38,28 @@ height: 100px;
 .cup img {
 width: 100%;
 }
+.atm img {
+  width: 100%;
+}
+change-box {
+  background: darkgrey;
+  border: 2px solid black;
+  min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

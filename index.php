@@ -13,7 +13,9 @@
   </head>
   <body>
     <div class="container">
+      
       <div class="row">
+        
         <div class="col-6 coffee-list"> <!--Левая сторона (выбор кофе)-->
           <div class="row flex-column justify-content-around"> 
              <div class="coffee-item">
@@ -34,9 +36,7 @@
               </div>
           </div>
         </div>
-      </div>  
-    </div>  
-      
+     
         <div class="col-6 coffee-oper"> <!--Правая сторона (операционная-->
           <div class="row">
              <div class="col-6"> <!--Дисплей и кружка-->
@@ -45,19 +45,28 @@
                  <div class="progress mt-2">
                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                   </div>
-                </div> 
+               </div> 
                <div class="cup">
                  <img src="img/americano.png" alt"">
                 </div>
               </div>
-               
              <div class="col-6"> <!--<Баланс АТМ сдача-->
-             
+               <div class="input-group mb-3">
+                 <input type="text" class="form-control balance" placeholder="Баланс">
+                <div class="input-group-append">
+                  <span class="input-group-text">&#8381;</span>
+                </div>
+                <diV class="atm"> 
+                  <img src="img/bill.acc.png" alt="">
+                </diV>
+                <button class="btn btn-primery btn-block mt-3 change-btn">Сдача</button><div class="change-box mt-3"></div>
+             </div>
              </div>
           </div>
         </div>
-  </div>
-    
+      </div>
+    </div>  
+  </div>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
