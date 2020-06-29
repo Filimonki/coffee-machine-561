@@ -50,25 +50,36 @@
                  <img src="img/americano.png" alt"">
                 </div>
               </div>
+              
+              
+              
              <div class="col-6"> <!--<Баланс АТМ сдача-->
                <div class="input-group mb-3">
                  <input type="text" class="form-control balance" placeholder="Баланс">
+               
+               
                 <div class="input-group-append">
                   <span class="input-group-text">&#8381;</span>
                 </div>
+                </div>
+                
                 <diV class="atm"> 
-                  <img src="img/bill.acc.png" alt="">
+                  <img src="img/bill_acc.png" alt="">
                 </diV>
-                <button class="btn btn-primery btn-block mt-3 change-btn">Сдача</button><div class="change-box mt-3"></div>
+                
+                <button class="btn btn-primary btn-block mt-3 change-btn">Сдача</button><div class="change-box mt-3"></div>
              </div>
+             
+             
+             
              </div>
           </div>
         </div>
       </div>
     </div>  
-  </div>  
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=script.js></script>
+   // <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

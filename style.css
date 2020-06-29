@@ -41,7 +41,7 @@ width: 100%;
 .atm img {
   width: 100%;
 }
-change-box {
+.change-box {
   background: darkgrey;
   border: 2px solid black;
   min-height: 100px;
