@@ -18,20 +18,20 @@
         
         <div class="col-6 coffee-list"> <!--Левая сторона (выбор кофе)-->
           <div class="row flex-column justify-content-around"> 
-             <div class="coffee-item">
-               <img src="img/americano.png" alt="Американо">
+             <div class="coffee-item" onclick="cookCoffee(60,'Американо')">
+               <img src="img/americano.png" alt=" Американо">
                <span>Американо - 60руб</span>
              </div>
-             <div class="coffee-item">
-               <img src="img/cappuccino.png" alt="Каппуччино">
+             <div class="coffee-item" onclick="cookCoffee(92,'Каппуччино')">
+               <img src="img/cappuccino.png" alt=" Каппуччино">
                <span>Каппуччино - 92руб</span>
              </div>
-             <div class="coffee-item">
-               <img src="img/espresso.png" alt="Эспрессо">
+             <div class="coffee-item" onclick="cookCoffee(66,'Эспрессо')">
+               <img src="img/espresso.png" alt=" Эспрессо">
                <span>Эспрессо - 66руб</span>
               </div> 
-              <div class="coffee-item">
-               <img src="img/latte.jpg" alt="Латте">
+              <div class="coffee-item" onclick="cookCoffee(128,'Латте')">
+               <img src="img/latte.jpg" alt=" Латте">
                <span>Латте - 128руб</span>
               </div>
           </div>
@@ -43,7 +43,7 @@
                <div class="display">
                  <span class="display-text">Выберите кофе</span>
                  <div class="progress mt-2">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
                   </div>
                </div> 
                <div class="cup">
@@ -78,8 +78,8 @@
       </div>
     </div>  
     <!-- Optional JavaScript -->
-    <script src=script.js></script>
-   // <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
