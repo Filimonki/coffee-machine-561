@@ -18,20 +18,20 @@
         
         <div class="col-6 coffee-list"> <!--Левая сторона (выбор кофе)-->
           <div class="row flex-column justify-content-around"> 
-             <div class="coffee-item" onclick="cookCoffee(60,'Американо', this)">
-               <img src="img/americano.png" alt=" Американо">
+             <div class="coffee-item">
+               <img src="img/americano.png" alt="Американо">
                <span>Американо - 60руб</span>
              </div>
-             <div class="coffee-item" onclick="cookCoffee(92,'Каппуччино', this)">
-               <img src="img/cappuccino.png" alt=" Каппуччино">
+             <div class="coffee-item">
+               <img src="img/cappuccino.png" alt="Каппуччино">
                <span>Каппуччино - 92руб</span>
              </div>
-             <div class="coffee-item" onclick="cookCoffee(66,'Эспрессо', this)">
-               <img src="img/espresso.png" alt=" Эспрессо">
+             <div class="coffee-item">
+               <img src="img/espresso.png" alt="Эспрессо">
                <span>Эспрессо - 66руб</span>
               </div> 
-              <div class="coffee-item" onclick="cookCoffee(128,'Латте', this)">
-               <img src="img/latte.jpg" alt=" Латте">
+              <div class="coffee-item">
+               <img src="img/latte.jpg" alt="Латте">
                <span>Латте - 128руб</span>
               </div>
           </div>
@@ -43,7 +43,7 @@
                <div class="display">
                  <span class="display-text">Выберите кофе</span>
                  <div class="progress mt-2">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                   </div>
                </div> 
                <div class="cup">
@@ -55,7 +55,7 @@
               
              <div class="col-6"> <!--<Баланс АТМ сдача-->
                <div class="input-group mb-3">
-                 <input type="text" class="form-control balance" placeholder="Баланс" readonly>
+                 <input type="text" class="form-control balance" placeholder="Баланс">
                
                
                 <div class="input-group-append">
@@ -64,7 +64,6 @@
                 </div>
                 
                 <diV class="atm"> 
-                <div class="cash-catcher"></div>
                   <img src="img/bill_acc.png" alt="">
                 </diV>
                 
@@ -78,23 +77,7 @@
         </div>
       </div>
     </div>  
-    <div class="money">
-      <img src ="img/50rub.jpg" cost = "50" alt="">
-      <img src ="img/100rub.jpg" cost = "100" alt="">
-      <img src ="img/500rub.jpg" cost = "500" alt="">
-    </div>
-    <div class="coin">
-      <img src ="img/1rub.png" alt="">
-      <img src ="img/2rub.png" alt="">
-      <img src ="img/5rub.png" alt="">
-      <img src ="img/10rub.png" alt="">
-    </div>
-    
-    
-    
-    
     <!-- Optional JavaScript -->
-    <script src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
